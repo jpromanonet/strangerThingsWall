@@ -14,7 +14,7 @@
 <body background="img/bgbike.jpg">
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="#">Stranger Things</a>
+				<a class="navbar-brand" href="#">Stranger Things Wall</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -41,7 +41,7 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					...
+					¿Es simple?, no lo se... pero podes presionar cualquier letra del alfabeto y se va a encender o no...?
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -52,7 +52,7 @@
 
 	</br></br>
 	<center>
-  	<img src="https://raw.githubusercontent.com/NestorPlasencia/strangerthings/master/vacio.gif" alt="Strangerthing" id="letras" width="70%" height="75%"/>
+  	<img src="https://raw.githubusercontent.com/jpromanonet/strangerThingsWall/master/img/vacio.gif" alt="Strangerthing" id="letras" width="70%" height="75%"/>
 	</center>
 
   <style>
@@ -100,7 +100,7 @@ var img = document.getElementById("letras");
     var imgArray = [];
     for (i = 65; i < 91; i++) {
       imgArray[i-65] = new Image();
-		  imgArray[i-65].src = "https://raw.githubusercontent.com/NestorPlasencia/strangerthings/master/"+i+".gif";
+		  imgArray[i-65].src = "https://raw.githubusercontent.com/jpromanonet/strangerThingsWall/master/img/"+i+".gif";
 		}
 
 	  document.addEventListener("keydown", teclado);
